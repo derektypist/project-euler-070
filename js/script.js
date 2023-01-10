@@ -35,7 +35,7 @@ function totientPermutation(limit) {
             if (primesMap[i]) {
                 primes.push(i);
                 for (let j = i * i; j < max; j += i) {
-                    primesMpa[j] = false;
+                    primesMap[j] = false;
                 }
             }
             if (i === 2) i = 1;
