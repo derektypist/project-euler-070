@@ -22,5 +22,28 @@
         <p>Interestingly, &phi;(87109) = 79180, and it can be seen that 87109 is a permutation of 79180.</p>
         <p>Find the value of n, 1 &lt; n &lt; limit, for which &phi;(n) is a permutation of n and the ratio n/&phi;(n) produces a minimum.  Begin by entering a number.</p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" title="Enter whole number between 10 and 10000000 (without leading zeros)" placeholder="Enter whole number between 10 and 10000000 (without leading zeros)" id="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getNumberInfo()">Submit</button>
+                <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
+            </article>
+        </form>
+
+        <!-- Display Number Information -->
+        <p id="numinfo"></p>
+
+        <!-- Load Script -->
+        <script src="js/script.js"></script>
+    </section>
 </body>
 </html>
