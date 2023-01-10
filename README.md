@@ -42,7 +42,7 @@ User Stories on function `totientPermutation(limit)` taken from [FreeCodeCamp - 
 
 **Information Architecture**
 
-The function `totientPermutation(limit)` returns a number, where `limit` is a number.
+The function `totientPermutation(limit)` returns a number, where `limit` is a number between 10 and 10000000.
 
 ## Features
 
