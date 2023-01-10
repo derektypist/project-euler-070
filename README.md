@@ -6,6 +6,8 @@ The number 1 is considered to be relatively prime to every positive number, so &
 
 Interestingly, &phi;(87109) = 79180, and it can be seen that 87109 is a permutation of 79180.
 
-Find the value of n, 1 &lt; n &lt; 10^7, for which &phi;(n) is a permutation of n and the ratio n/&phi;(n) produces a minimum.
+Find the value of n, 1 &lt; n &lt; 10^7^, for which &phi;(n) is a permutation of n and the ratio n/&phi;(n) produces a minimum.
 
 Information at [Project Euler 070](https://projecteuler.net/problem=70)
+
+## UX
