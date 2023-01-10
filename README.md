@@ -44,3 +44,29 @@ User Stories on function `totientPermutation(limit)` taken from [FreeCodeCamp - 
 
 The function `totientPermutation(limit)` returns a number, where `limit` is a number.
 
+## Features
+
+Allows the user to enter a number in order to get the value of n from 1 to the number entered such that n/&phi;(n) produces a minimum and &phi;(n) is a permutation of n.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.3.0-alpha1 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-070) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
