@@ -6,8 +6,41 @@ The number 1 is considered to be relatively prime to every positive number, so &
 
 Interestingly, &phi;(87109) = 79180, and it can be seen that 87109 is a permutation of 79180.
 
-Find the value of n, 1 &lt; n &lt; 10^7^, for which &phi;(n) is a permutation of n and the ratio n/&phi;(n) produces a minimum.
+Find the value of n, 1 &lt; n &lt; limit, for which &phi;(n) is a permutation of n and the ratio n/&phi;(n) produces a minimum.
 
 Information at [Project Euler 070](https://projecteuler.net/problem=70)
 
 ## UX
+
+**Getting Started**
+
+In the input field, enter a whole number between 10 and 10000000 (without leading zeros) and select the Submit Button.  Unless you have made an invalid input, you will see the value of n, for which &phi;(n) is a permutation of n and the ratio n/&phi;(n) produces a minimum.  For example, if you entered 10000, you would expect n to be 4435.  Select the Reset Button to clear the information or to start again.
+
+**User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 10 or greater than 10000000
+- Including leading zeros such as 01000
+- Entering a number, but it is not an integer
+
+As a user, if I select the Reset Button, I can clear the information or start again.
+
+As a user, I expect the function `totientPermutation(10000)` to return a number.
+
+As a user, I expect the function `totientPermutation(10000)` to return 4435.
+
+As a user, I expect the function `totientPermutation(100000)` to return 75841.
+
+As a user, I expect the function `totientPermutation(500000)` to return 474883.
+
+As a user, I expect the function `totientPermutation(10000000)` to return 8319823.
+
+User Stories on function `totientPermutation(limit)` taken from [FreeCodeCamp - Coding Interview Prep - Project Euler 070](https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-70-totient-permutation)
+
+**Information Architecture**
+
+The function `totientPermutation(limit)` returns a number, where `limit` is a number.
+
